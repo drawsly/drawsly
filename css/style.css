@@ -1,0 +1,109 @@
+body {
+    font: 20px 'Open Sans', sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+    background-color: #1b1a1a; /* Karanlık arka plan rengi */
+}
+
+p {
+    font-size: 16px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.bg-1 {
+    background-color: #2d7ade;
+    /* Green */
+    color: #333333;
+    /* black */
+}
+
+.bg-2 {
+    background-color: #474e5d;
+    /* Dark Blue */
+    color: #ffffff;
+}
+
+.bg-3 {
+    background-color: #ffffff;
+    /* White */
+    color: #555555;
+}
+
+.bg-4 {
+    background-color: #1b1a1a;
+    /* Blue Diamond */
+    color: #fff;
+}
+
+.bg-5 {
+    background-color: #ecebe8;
+    /* Gray */
+    color: #333;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #1b1a1a; /* Karanlık arka plan rengi */
+}
+
+.navbar-nav li a:hover {
+    color: #4C3173 !important;
+}
+
+.img-hover {
+    transition: transform 0.3s, opacity 0.3s;
+    cursor: pointer;
+}
+
+.img-hover:hover {
+    transform: scale(1.1);
+}
+
+.img-follow {
+    position: relative;
+    animation: followMouse 3s infinite;
+}
+
+@keyframes followMouse {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translateX(calc((100vw / 2) - (150px / 2))) translateY(calc((100vh / 2) - (150px / 2)));
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+/* Scroll barı özelleştirme */
+::-webkit-scrollbar {
+    width: 10px; /* Scroll bar genişliği */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Scroll bar arka plan rengi */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Scroll bar dolgu rengi */
+    border-radius: 5px; /* Scroll bar köşe yarıçapı */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Scroll bar dolgu rengi (hover durumunda) */
+}

@@ -13,7 +13,7 @@ BANA AİT DEĞİLDİR!
 <head>
     <title>Enes Yasin - Kişisel Site</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Drawsly - Kişisel Site">
+    <meta name="description" content="Enes Yasin - Kişisel Site">
     <meta name="keywords" content="drawsly, drawsl, enes yasin">
     <meta name="author" content="Enes Yasin Divrengi">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,71 +23,7 @@ BANA AİT DEĞİLDİR!
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <style>
-        body {
-            font: 20px Montserrat, sans-serif;
-            line-height: 1.8;
-            color: #f5f6f7;
-        }
-        
-        p {
-            font-size: 16px;
-        }
-        
-        .margin {
-            margin-bottom: 45px;
-        }
-        
-        .bg-1 {
-            background-color: #2d7ade;
-            /* Green */
-            color: #333333;
-            /* black */
-        }
-        
-        .bg-2 {
-            background-color: #474e5d;
-            /* Dark Blue */
-            color: #ffffff;
-        }
-        
-        .bg-3 {
-            background-color: #ffffff;
-            /* White */
-            color: #555555;
-        }
-        
-        .bg-4 {
-            background-color: #1b1a1a;
-            /* Blue Diamond */
-            color: #fff;
-        }
-        
-        .bg-5 {
-            background-color: #ecebe8;
-            /* Gray */
-            color: #333;
-        }
-        
-        .container-fluid {
-            padding-top: 70px;
-            padding-bottom: 70px;
-        }
-        
-        .navbar {
-            padding-top: 15px;
-            padding-bottom: 15px;
-            border: 0;
-            border-radius: 0;
-            margin-bottom: 0;
-            font-size: 12px;
-            letter-spacing: 5px;
-        }
-        
-        .navbar-nav li a:hover {
-            color: #4C3173 !important;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css"
 </head>
 
 <body>
@@ -116,15 +52,27 @@ BANA AİT DEĞİLDİR!
     <!-- First Container -->
     <div id="kimdir" class="container-fluid bg-1 text-center">
         <h3 class="margin">Selam, Ben Enes</h3>
-        <img src="img/drawsly.jpg" class="img-responsive img-circle margin" style="display:inline" alt="enesyasindivrengi" width="150" height="150">
+        <img src="img/drawsly.jpg" class="img-responsive img-circle margin img-hover" style="display:inline" alt="enesyasindivrengi" width="150" height="150">
         <h3>Junior Developer</h3>
     </div>
 
-    <!-- Second Container -->
-    <div id="neyapar" class="container-fluid bg-2 text-center">
-        <h3 class="margin"><i class="fa fa-info" aria-hidden="true"></i> Neler Yaparım?</h3>
-        <p>Genellikle yazılım konusunda kendimi geliştiririm</p>
+<!-- Second Container -->
+<div id="neyapar" class="container-fluid bg-2 text-center">
+    <h3 class="margin"><i class="fa fa-info" aria-hidden="true"></i> Neler Yaparım?</h3>
+    <div style="display: flex; justify-content: center;">
+        <div style="max-width: 1000px; text-align: left;">
+            <p>Merhaba! Benim adım Enes. Kendimi geliştirmek ve yeni beceriler edinmek için sürekli olarak çaba sarf eden biriyim. İşte neler yaparım:</p>
+            <ul>
+                <li>Linux işletim sistemlerini deneyerek, farklı dağıtımları keşfediyor ve tecrübe ediniyorum.</li>
+                <li>Yazılım geliştirme konusunda yeteneklerimi sürekli olarak geliştiriyorum ve yeni teknolojilere uyum sağlıyorum.</li>
+                <li>Oyun sunucuları açıyor, yönetiyor ve oyunseverlere keyifli bir deneyim sunmak için özelleştirme çalışmaları yapıyorum.</li>
+                <li>Geliştirmek için projeler üzerinde çalışıyor ve kullanıcı dostu arayüzler oluşturuyorum.</li>
+            </ul>
+            <p>Bu alanlarda deneyim kazanmak, kendimi sürekli olarak geliştirmek ve yeni projelere dahil olmak benim için büyük bir tutku ve motivasyon kaynağıdır.</p>
+        </div>
     </div>
+</div>
+
 
     <!-- Third Container (Grid) -->
     <div id="blog" class="container-fluid bg-3 text-center">
@@ -146,12 +94,59 @@ BANA AİT DEĞİLDİR!
         </div>
     </div>
 
-    <!-- Footer -->
     <footer class="container-fluid bg-4 text-center">
-        <p>Tüm Hakları Ortadadır - 2023 </br></p>
-        <a style="color: white;" href="https://www.instagram.com/enes_ysn.34" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a style="color: white;" href="https://www.github.com/drawsl" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Hava Durumu</h4>
+                <div id="weather-widget"></div>
+            </div>
+            <div class="col-md-6">
+                <p>Tüm Hakları Saklıdır - 2023</p>
+                <div>    
+                    <a href="https://www.instagram.com/enes_ysn.34" target="_blank" style="color: white; margin-right: 10px;">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.github.com/drawsl" target="_blank" style="color: white;">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://discord.com/invite/ÖRNEK-PROFİL-BAĞLANTISI" target="_blank" style="color: white; margin-left: 10px;">
+                        <i class="fa fa-discord" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Hava durumu API'sinden veri almak için Ajax isteği gönderiyoruz
+            $.ajax({
+                url: 'https://api.openweathermap.org/data/2.5/weather?q=Istanbul,tr&appid=YOUR_API_KEY&units=metric',
+                type: 'GET',
+                dataType: 'json',
+                success: function(data) {
+                    var weather = data.weather[0];
+                    var temperature = Math.round(data.main.temp);
+                    var icon = weather.icon;
+                    var description = weather.description;
+    
+                    var weatherWidget = document.getElementById('weather-widget');
+                    weatherWidget.innerHTML = `
+                        <div>
+                            <img src="https://openweathermap.org/img/w/${icon}.png" alt="${description}">
+                            <p>${temperature}°C, ${description}</p>
+                        </div>
+                    `;
+                },
+                error: function() {
+                    var weatherWidget = document.getElementById('weather-widget');
+                    weatherWidget.innerHTML = 'Hava durumu verisi alınamadı.';
+                }
+            });
+        });
+    </script>
 
 </body>
 

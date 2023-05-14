@@ -2,7 +2,34 @@ body {
     font: 20px 'Open Sans', sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
-    background-color: #1b1a1a; /* Karanlık arka plan rengi */
+}
+
+.navbar {
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #337ab7;
+    font-weight: bold;
+}
+
+.navbar-nav li a {
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:focus {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+.navbar-nav li a:hover {
+    transform: scale(1.05);
 }
 
 p {
@@ -13,11 +40,14 @@ p {
     margin-bottom: 45px;
 }
 
+
 .bg-1 {
-    background-color: #2d7ade;
-    /* Green */
-    color: #333333;
-    /* black */
+    background-color: #8babd4;
+    transition: background-color 0.3s ease;
+}
+
+.bg-1:hover {
+    background-color: #7e7eac;
 }
 
 .bg-2 {
@@ -57,7 +87,6 @@ p {
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
-    background-color: #1b1a1a; /* Karanlık arka plan rengi */
 }
 
 .navbar-nav li a:hover {

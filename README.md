@@ -55,12 +55,12 @@
 
 ###
 
+<div align="center"><img src="https://count.getloli.com/@drawsly?name=drawsly&theme=booru-koe&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto" alt="drawsly" /></div>
+
+###
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/drawsly/drawsly/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/drawsly/drawsly/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/drawsly/drawsly/output/pacman-contribution-graph.svg">
 </picture>
-
-###
-
-<div align="center"><img src="https://count.getloli.com/@drawsly?name=drawsly&theme=booru-koe&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto" alt="drawsly" /></div>

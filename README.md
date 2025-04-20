@@ -62,3 +62,5 @@
 </picture>
 
 ###
+
+<img src="https://count.getloli.com/@drawsly?name=drawsly&theme=booru-koe&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto" alt="drawsly" />

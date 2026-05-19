@@ -18,21 +18,10 @@
   <img src="https://skillicons.dev/icons?i=dotnet" height="40" alt="dot-net logo" />&nbsp;
   <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo" />&nbsp;
   <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo" />&nbsp;
-  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo" />&nbsp;
-  <img src="https://skillicons.dev/icons?i=nextjs" height="40" alt="nextjs logo" />&nbsp;
   <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs logo" />&nbsp;
   <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo" />&nbsp;
   <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3 logo" />&nbsp;
-  <img src="https://skillicons.dev/icons?i=java" height="40" alt="java logo" />&nbsp;
-  <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="tailwindcss logo" />&nbsp;
   <img src="https://skillicons.dev/icons?i=linux" height="40" alt="linux logo" />&nbsp;
-  <img src="https://skillicons.dev/icons?i=figma" height="40" alt="figma logo" />&nbsp;
-  <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo" />&nbsp;
-  <img src="https://skillicons.dev/icons?i=vercel" height="40" alt="vercel logo" />&nbsp;
-  <img src="https://skillicons.dev/icons?i=cloudflare" height="40" alt="cloudflare logo" />&nbsp;
-  <img src="https://skillicons.dev/icons?i=ps" height="40" alt="adobephotoshop logo" />&nbsp;
-  <img src="https://skillicons.dev/icons?i=ae" height="40" alt="adobeaftereffects logo" />&nbsp;
-  <img src="https://skillicons.dev/icons?i=prisma" height="40" alt="prisma logo" />
 </div>
 
 ### 📈 Contribution Activity
